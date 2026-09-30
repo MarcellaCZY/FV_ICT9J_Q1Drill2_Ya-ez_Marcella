@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        header{
+            text-align: center;
+            font-family: Comfortaa;
+            background-color: hsl(53, 100%, 82%);
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+        body{
+            font-family: Consolas;
+            text-align: center;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+        section{
+            text-align: center;
+            padding: 15px;
+            margin: 15px;
+            max-width: auto;
+            border-radius: 10px;
+        }
+        input[type='submit']{
+            background-color: hsl(53, 100%, 82%);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align:center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: 500px;
+            height: 250px;
+            padding: 0px;
+        }
+       
+    </style>
+</head>
+<body>
+ <header> 
+    <h1>RATE A MOVIE</h1>
+    <br>
+    <p></p>
+</header>
+   
+    <section>
+        <form action="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5pFuwJ-jwkkBp7QDChYf7_nCRrHoVlcGHGGh7717UV4kC7hGa2H_LMtw&s=10" alt="Logo">
+            <label for="Movies">Select a Movie</label>
+            <select name="Movies" id="Movies">
+                <option value="m1">Select Movie</option>
+                <option value="m2">Matilda</option>
+                <option value="m3">Baymax</option>
+                <option value="m4">Slumberland</option>
+            </select>
+            <br>
+                <label for="genre">Genre/s</label>
+                 <br>
+            <input type="checkbox" id="genre1" name="genre1">
+                 <label for="genre1">Action</label>
+            
+             <input type="checkbox" id="genre2" name="genre2">
+                <label for="genre2">Comedy</label>
+            
+             <input type="checkbox" id="genre3" name="genre3">
+                <label for="genre3">Family</label>
+            
+             <input type="checkbox" id="genre4" name="genre4">
+                <label for="genre4">Animation</label>
+            
+             <input type="checkbox" id="genre5" name="genre5">
+            <label for="genre5">Others</label>
+                <br>
+                <br>
+            <label for="genre">Rating</label>
+            <br>
+            <input type="radio" id="rate1" name="Rating">
+                 <label for="rate1">⭐</label>
+            <input type="radio" id="rate2" name="Rating">
+                 <label for="rate2">⭐⭐</label>
+            <input type="radio" id="rate3" name="Rating">
+                 <label for="rate3">⭐⭐⭐</label>
+            <input type="radio" id="rate4" name="Rating">
+                 <label for="rate4">⭐⭐⭐⭐</label>
+            <input type="radio" id="rate5" name="Rating">
+                 <label for="rate5">⭐⭐⭐⭐⭐</label>
+                 <br><br>
+                 <textarea id="review" name="review" rows="7" cols="70" placeholder="Movie Review"></textarea>
+                 <br>
+                 <input type="submit" id="submit" name="submit" value="Submit Review">
+                 <br>
+                 For movie review tips, click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/" target="_blank">here</a>
+        </form>
+    </section>
+<!-- -->
+<!--Reference
+    Nyfa, & Nyfa. (2024, March 23). How to write a movie review: 10 essential tips. NYFA. https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/-->
+</body>
+</html>
